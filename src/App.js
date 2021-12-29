@@ -1,9 +1,14 @@
+import Lista from './Components/List/index'
+import Saludo from './Components/Saludo/index'
 
 
+ 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello Word</h1>
+    <div className="container">
+      <Saludo/>
+      <hr/>
+      <Lista/>
     </div>
   );
 }
